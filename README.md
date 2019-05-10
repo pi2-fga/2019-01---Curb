@@ -25,3 +25,5 @@ Para instação do projeto basta clonar o repositório e executar o comando:
 ```shell
 sudo docker-compose up
 ```
+
+*Observação: é necessário ter instalado na máquina o docker e o docker compose. Acesse a documentação [Docker](https://docs.docker.com/).
