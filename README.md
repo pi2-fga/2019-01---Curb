@@ -18,7 +18,7 @@ Este repositório contém a estrutura de backend do projeto, que foi estruturado
 Para gerenciar a configuração e deploy desses microserviços é utilizado o **Docker**.
 Cada seviço é empacotado em um container para que o deploy possa ser feito atomicamente para cada um, assim é possível uma evolução separada.
 
-![arquitetura](https://imgur.com/a/31lYuvA)
+![Imgur](https://i.imgur.com/mfCck4Y.png)
 
 ## Instalação
 Para instação do projeto basta clonar o repositório e executar o comando:
