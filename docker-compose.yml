@@ -6,3 +6,12 @@ services:
      - "5000:5000"
   redis:
     image: "redis:alpine"
+
+  controlService:
+    image: curb2019/control-service
+
+  monitoringService:
+    image: curb2019/monitoring-service
+
+  reportService:
+    image: curb2019/report-service
