@@ -16,3 +16,15 @@ class Carrinho(models.Model):
     codigo = models.IntegerField()
     link = models.CharField(max_length=100)
     usuarioAtivo = models.ForeignKey(Usuario, on_delete=models.CASCADE)
+
+class Trajeto(models.Model):
+    latitudeInicial = models.FloatField()
+    longituteInicial = models.FloatField()
+    latitudeFinal = models.FloatField()
+    longituteInicial = models.FloatField()
+
+class Bateria(models.Model):
+    porcentagem = models.CharField(max_length=5)
+
+class Tinta(models.Model):
+    porcentagem = models.CharField(max_length=5)
