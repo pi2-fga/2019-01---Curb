@@ -25,7 +25,10 @@ SECRET_KEY = 'vv9c7ve3wb2r(&r2i-sg#yzcml(7lzk5^9v6x%&oet%kc_-(t4'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://curb-api.herokuapp.com/']
+ALLOWED_HOSTS = [
+	'https://curb-api.herokuapp.com/',
+	'127.0.0.1'
+]
 
 
 # Application definition

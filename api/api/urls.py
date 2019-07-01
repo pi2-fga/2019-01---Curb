@@ -15,15 +15,14 @@ Including another URLconf
 """
 from django.conf.urls import url, include
 from django.contrib import admin
-from core.views import UsuarioViewSet, CarrinhoViewSet, TrajetoViewSet, TintaViewSet, BateriaViewSet
+from core.views import UsuarioViewSet, CurbViewSet, MonitoramentoViewSet, RelatorioViewSet
 from rest_framework import routers
 
 router = routers.DefaultRouter()
 router.register(r'usuarios', UsuarioViewSet)
-router.register(r'carrinhos', CarrinhoViewSet)
-router.register(r'trajeto', TrajetoViewSet)
-router.register(r'tinta', TintaViewSet)
-router.register(r'bateria', BateriaViewSet)
+router.register(r'curbs', CurbViewSet)
+router.register(r'monitoramentos', MonitoramentoViewSet)
+router.register(r'relatorios', RelatorioViewSet)
 
 urlpatterns = [
     url(r'^', include(router.urls)),
