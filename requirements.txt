@@ -1,13 +1,13 @@
-Django==1.11.15
+Django==1.11.21
 
 gunicorn==19.7.1
 
 Markdown==2.6.9
 
-Pillow==2.3.0
+Pillow==3.3.2
 
 django-filter==1.0.4
 
-djangorestframework==3.6.4
+djangorestframework==3.9.1
 
 whitenoise==3.3.1
