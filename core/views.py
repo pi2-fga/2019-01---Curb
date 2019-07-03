@@ -2,26 +2,22 @@
 from __future__ import unicode_literals
 from rest_framework import viewsets
 from django.shortcuts import render
-from .models import Usuario, Carrinho, Trajeto, Bateria, Tinta
-from .serializer import UsuarioSerializer, CarrinhoSerializer, TrajetoSerializer, BateriaSerializer, TintaSerializer
+from .models import Usuario, Curb, Monitoramento, Relatorio
+from .serializer import UsuarioSerializer, CurbSerializer, MonitoramentoSerializer, RelatorioSerializer
 
 # Create your views here.
 class UsuarioViewSet(viewsets.ModelViewSet):
     queryset = Usuario.objects.all()
     serializer_class = UsuarioSerializer
 
-class CarrinhoViewSet(viewsets.ModelViewSet):
-    queryset = Carrinho.objects.all()
-    serializer_class = CarrinhoSerializer
+class CurbViewSet(viewsets.ModelViewSet):
+    queryset = Curb.objects.all()
+    serializer_class = CurbSerializer
 
-class TrajetoViewSet(viewsets.ModelViewSet):
-    queryset = Trajeto.objects.all()
-    serializer_class = TrajetoSerializer
+class MonitoramentoViewSet(viewsets.ModelViewSet):
+    queryset = Monitoramento.objects.all()
+    serializer_class = MonitoramentoSerializer
 
-class BateriaViewSet(viewsets.ModelViewSet):
-    queryset = Bateria.objects.all()
-    serializer_class = BateriaSerializer
-
-class TintaViewSet(viewsets.ModelViewSet):
-    queryset = Tinta.objects.all()
-    serializer_class = TintaSerializer
+class RelatorioViewSet(viewsets.ModelViewSet):
+    queryset = Relatorio.objects.all()
+    serializer_class = RelatorioSerializer
