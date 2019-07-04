@@ -26,8 +26,10 @@ class Monitoramento(models.Model):
     status = models.CharField(max_length=5)
     tinta = models.IntegerField()
     bateria = models.IntegerField()
-    latitude = models.CharField(max_length=20)
-    logitude = models.CharField(max_length=20)
+    latitudeInicial = models.CharField(max_length=20)
+    logitudeInicial = models.CharField(max_length=20)
+    latitudeFinal = models.CharField(max_length=20)
+    logitudeFinal = models.CharField(max_length=20)
     data = models.CharField(max_length=10)
     hora = models.CharField(max_length=10)
 

@@ -23,7 +23,8 @@ class MonitoramentoSerializer(serializers.ModelSerializer):
     # hora = HoraCurbField(source='*')
     class Meta:
         model = Monitoramento
-        fields = ('id', 'curbAtivo', 'tinta', 'bateria', 'latitude', 'logitude', 'hora', 'data', 'status')
+        fields = ('id', 'curbAtivo', 'tinta', 'bateria', 'latitudeInicial', 
+                'logitudeInicial', 'logitudeFinal', 'latitudeFinal', 'hora', 'data', 'status')
 
 
 # class TintaField(serializers.Field):
