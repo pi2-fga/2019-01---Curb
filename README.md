@@ -20,10 +20,27 @@ Cada seviço é empacotado em um container para que o deploy possa ser feito ato
 
 ![Imgur](https://i.imgur.com/mfCck4Y.png)
 
-## Instalação
-Para instação do projeto basta clonar o repositório e executar o comando:
-```shell
-sudo docker-compose up
+## Rodando o projeto
+Para rodar o projeto basta realizar os seguintes passos no terminal:
+```
+git clone https://github.com/pi2-fga/2019-01-Curb-Back-end.git
+```
+Executar o comando abaixo para instalar os pré-requisitos do ambiente:
+```
+pip install -r requirements.txt
+```
+Entre na pasta api:
+```
+cd api/
+```
+```
+python manage.py runserver
 ```
 
-*Observação: é necessário ter instalado na máquina o docker e o docker compose. Acesse a documentação [Docker](https://docs.docker.com/).
+## Deploy:
+
+O deploy da api está disponével em:
+```
+http://gustavo2795.pythonanywhere.com/
+```
+
