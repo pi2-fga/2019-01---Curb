@@ -45,3 +45,9 @@ O deploy da api está disponével em:
 http://gustavo2795.pythonanywhere.com/
 ```
 
+### Documentação API
+
+A modelagem das models está disponível em:
+```
+https://app.swaggerhub.com/apis-docs/IolaneAndrade/PI2-FGA-CURB/1.0.0
+```
