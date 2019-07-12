@@ -33,6 +33,7 @@ Entre na pasta api:
 ```
 cd api/
 ```
+Por fim, execute o comando:
 ```
 python manage.py runserver
 ```
