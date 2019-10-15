@@ -1,4 +1,4 @@
-# Contributing to the Portal Modelo Ombudsman 
+# Contributing to the CURB Back-end 
 
 If you would like to contribute to the project, it may be a good idea to start by [README](https://github.com/pi2-fga/2019-01-Curb-Back-end/blob/master/README.md) to get to know us better.
 
